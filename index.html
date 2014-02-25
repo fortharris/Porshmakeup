@@ -33,7 +33,17 @@
   <script src="Slideshow/js/slideshow.push.js"></script>
   <script>
     window.addEvent('domready', function(){
-      var data = { '1.jpg': { caption: '1' }, '2.jpg': { caption: '2' }, '3.jpg': { caption: '3' }, '4.jpg': { caption: '4' }};
+      var data = { '1.jpg': { caption: '1' }, '2.jpg': { caption: '2' }, '3.jpg': { caption: '3' }, '4.jpg': { caption: '4' },
+                  '5.jpg': { caption: '5' }, '6.jpg': { caption: '6' }, '7.jpg': { caption: '7' }, '8.jpg': { caption: '8' },
+                  '9.jpg': { caption: '9' }, '10.jpg': { caption: '10' }, '11.jpg': { caption: '11' }, '12.jpg': { caption: '12' },
+                  '13.jpg': { caption: '13' }, '14.jpg': { caption: '14' }, '15.jpg': { caption: '15' }, '16.jpg': { caption: '16' },
+                  '17.jpg': { caption: '17' }, '18.jpg': { caption: '18' }, '19.jpg': { caption: '19' }, '20.jpg': { caption: '20' },
+                  '21.jpg': { caption: '21' }, '22.jpg': { caption: '22' }, '23.jpg': { caption: '23' }, '24.jpg': { caption: '24' },
+                  '25.jpg': { caption: '25' }, '26.jpg': { caption: '26' }, '27.jpg': { caption: '27' }, '28.jpg': { caption: '28' },
+                  '29.jpg': { caption: '29' }, '30.jpg': { caption: '30' }, '31.jpg': { caption: '31' }, '32.jpg': { caption: '32' },
+                  '33.jpg': { caption: '33' }, '34.jpg': { caption: '34' }, '35.jpg': { caption: '35' }, '36.jpg': { caption: '36' },
+                  '37.jpg': { caption: '37' }, '38.jpg': { caption: '38' }, '39.jpg': { caption: '39' }, '40.jpg': { caption: '40' },
+                  '41.jpg': { caption: '41' }, '42.jpg': { caption: '42' }};
 
       new Slideshow('overlap', data, { captions: { delay: 1000 }, delay: 3000, height: 300, hu: 'Slideshow/images/', width: 400 });
       new Slideshow('noOverlap', data, { height: 300, hu: 'Slideshow/images/', overlap: false, resize: 'fit', width: 400 });
@@ -74,13 +84,19 @@
 	        		<div class="scrollContainer">
                     
                     <div class="panel" id="home">
-                        <h2>Welcome</h2> 
+                        <h2>Welcome...</h2> 
 
                         <div id="fold" class="slideshow">
                           <img src="Slideshow/images/1.jpg" alt="1">
                         </div>
 
+                        <div id="lowercomment"><p>
+                          For the longest time, most of us tended to play it pretty safe when it came to beauty. Neutral nails, pink lips, maybe a colorful eyeshadow or pixie cut now and then if we were feeling wacky.
+                          But now we've got neon nail art, tangerine lipstick, and sky blue chalk in our hair -- and it's actually looking way better than we may have once thought.
+                        </p></div>
+
                     </div>
+
                     <!-- end of home -->
                     
                     <div class="panel" id="gallery">
